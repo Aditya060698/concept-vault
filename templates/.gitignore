@@ -1,0 +1,66 @@
+# -----------------------------
+# OS / Editors
+# -----------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# -----------------------------
+# Git
+# -----------------------------
+*.orig
+*.rej
+
+# -----------------------------
+# Java / Maven / Spring Boot
+# -----------------------------
+target/
+*.class
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+# If you generate coverage locally
+coverage/
+# Local app configs (commit templates/samples instead)
+application-*.local.properties
+application-*.local.yml
+# Spring Boot devtools restart cache
+.spring-boot-devtools.properties
+
+# -----------------------------
+# Node / React (Vite + TS)
+# -----------------------------
+node_modules/
+dist/
+.vite/
+.next/
+*.tsbuildinfo
+
+# Lockfiles (pick one and commit it; ignore others)
+# Uncomment the one you DON'T use:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# -----------------------------
+# Env / Secrets
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# Tests / Reports (optional)
+# -----------------------------
+junit-report.xml
+test-results/
+reports/
+
+# -----------------------------
+# Misc build/output
+# -----------------------------
+out/
+build/
